@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    height: 400px;
+}
+
+.top-header {
+    height: 10%;
+    width: 90%;
+    position: fixed;
+}
+
+.logo {
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+    float: left;
+}
+
+.menu-one {
+    width: 60%;
+    height: 100%;
+    background-color: brown;
+    float: left;
+}
+
+.menu-two {
+    width: 20%;
+    height: 100%;
+    background-color: forestgreen;
+    float: right;
+}
+
+.bottom-header {
+    height: 80%;
+    width: 100%;
+}
+
+.btm-image {
+    width: 50%;
+    height: 100%;
+    background-color: darkkhaki;
+    float: left;
+}
+
+.btm-text {
+    width: 50%;
+    height: 100%;
+    background-color: gold;
+    float: right;
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.about {
+    width: 100%;
+    height: 150px;
+}
+
+.about-head {
+    width: 20%;
+    height: 50%;
+    margin: auto;
+    background-color: darkorchid;
+}
+
+.about-text {
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    background-color: deeppink;
+}
+
+.about-image {
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.about-img {
+    height: 50%;
+    width: 50%;
+    background-color: darkseagreen;
+    float: left;
+}
+
+.about-img-text {
+    height: 50%;
+    width: 50%;
+    /* background-color: grey; */
+    float: right;
+}
+
+.about-img-text-one {
+    height: 50%;
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.about-img-text-two {
+    height: 50%;
+    width: 100%;
+    background-color: burlywood;
+}
+
+.about-service {
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    /* background-color: hotpink; */
+}
+
+.clear {
+    clear: both;
+}
+
+.about-service-one {
+    height: 100%;
+    width: 33.33%;
+    /* background-color: lightcoral; */
+    float: left;
+}
+
+.about-service-two {
+    height: 100%;
+    width: 33.33%;
+    /* background-color: maroon; */
+    float: left;
+}
+
+.about-service-three {
+    height: 100%;
+    width: 33.33%;
+    /* background-color: navy; */
+    float: left;
+}
+
+.about-service-one-logo {
+    width: 20%;
+    height: 30%;
+    background-color: dimgray;
+    margin: auto;
+}
+
+.about-service-two-logo {
+    width: 20%;
+    height: 30%;
+    background-color: darkkhaki;
+    margin: auto;
+}
+
+.about-service-three-logo {
+    width: 20%;
+    height: 30%;
+    background-color: violet;
+    margin: auto;
+}
+
+.about-service-one-head {
+    width: 70%;
+    height: 35%;
+    background-color: khaki;
+    margin: auto;
+}
+
+.about-service-two-head {
+    width: 70%;
+    height: 35%;
+    background-color: rebeccapurple;
+    margin: auto;
+}
+
+.about-service-three-head {
+    width: 70%;
+    height: 35%;
+    background-color: tomato;
+    margin: auto;
+}
+
+.about-service-one-text {
+    width: 90%;
+    height: 35%;
+    background-color: teal;
+    margin: auto;
+}
+
+.about-service-two-text {
+    width: 90%;
+    height: 35%;
+    background-color: thistle;
+    margin: auto;
+}
+
+.about-service-three-text {
+    width: 90%;
+    height: 35%;
+    background-color: lawngreen;
+    margin: auto;
+}
+
+.product {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.project-h {
+    width: 40%;
+    height: 80px;
+    margin: auto;
+    background-color: mediumorchid;
+}
+
+.project-head-text {
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    background-color: palegoldenrod;
+}
+
+.product-demo {
+    height: 500px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.product-demo-one {
+    height: 250px;
+    width: 33.33%;
+    background-color: indigo;
+    float: left;
+}
+
+.product-demo-two {
+    height: 250px;
+    width: 33.33%;
+    background-color: greenyellow;
+    float: left;
+}
+
+.product-demo-three {
+    height: 250px;
+    width: 33.33%;
+    background-color: darkorange;
+    float: left;
+}
+
+.product-demo-four {
+    height: 250px;
+    width: 33.33%;
+    background-color: lightseagreen;
+    float: left;
+}
+
+.product-demo-five {
+    height: 250px;
+    width: 33.33%;
+    background-color: olive;
+    float: left;
+}
+
+.product-demo-six {
+    height: 250px;
+    width: 33.33%;
+    background-color: orange;
+    float: left;
+}
+
+.fotter {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    padding: 20px 0px;
+    background-color: blue;
+}
+
+.fotter-one {
+    width: 25.33%;
+    height: 250px;
+    background-color: darkred;
+    margin-left: 30px;
+    float: left;
+}
+
+.fotter-two {
+    width: 25.33%;
+    height: 250px;
+    background-color: rebeccapurple;
+    margin-left: 100px;
+    float: left;
+}
+
+.fotter-three {
+    width: 25.33%;
+    height: 250px;
+    background-color: violet;
+    margin-right: 30px;
+    float: right;
+}
+
+.end-fotter {
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: red;
+    float: right;
+}
+
+.clear-two {
+    clear: both;
+}
